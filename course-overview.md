@@ -13,9 +13,9 @@ Welcome!  This is an overview of the fall 2023 edition of CSE232 ("Distributed S
 
 Hi, I'm [Lindsey Kuper](https://users.soe.ucsc.edu/~lkuper/)!  (Feel free to call me by my first name.)
 
-  - Email: for anything CSE232-related, send a PM on the course Zulip instead.  Otherwise: <lkuper@ucsc.edu>
+  - Email: for anything CSE232-related, send a DM on the course Zulip instead.  Otherwise: <lkuper@ucsc.edu>
   - Office location: Engineering 2, Room 349B
-  - Office hours: TBD
+  - Office hours: By appointment (DM me on Zulip anytime)
   - Research areas: programming languages, distributed systems, software verification, concurrency (check out the [Languages, Systems, and Data Lab](https://lsd.ucsc.edu/) website for more information)
   - Pronouns: she/her/hers
 
@@ -25,7 +25,7 @@ Hi, I'm [Lindsey Kuper](https://users.soe.ucsc.edu/~lkuper/)!  (Feel free to cal
   - Class meets in person Mondays, Wednesdays, and Fridays, 4:00-5:05pm Pacific time
   - Course GitHub repo (public; for class discussion summaries): <https://github.com/lkuper/CSE232-2023-09/>
   - Canvas (for reading responses and grades): <https://canvas.ucsc.edu/courses/65302>
-  - Zulip (private; for announcements, live chat during lectures, Q&A, communicating with course staff, and socializing): <https://ucsc-cse232.zulipchat.com> (all enrolled and waitlisted students will receive an invitation by email)
+  - Zulip (private; for announcements, live chat during lectures, Q&A, communicating with course staff, and socializing): <https://ucsc-cse232.zulipchat.com> (enrolled students will receive an invitation link)
   - Course web page (you're soaking in it): <https://decomposition.al/CSE232-2023-09/> (URLs are case-sensitive after the domain name, so be sure to capitalize "CSE"
   
 ## What's this course about?
@@ -50,7 +50,7 @@ All of these skills will serve you well in your future career, whether in indust
   
 ## What will this course be like?
 
-CSE232 will be a *combination lecture and discussion* course.  We will be reading and discussing papers from the distributed systems research literature, interleaved with lectures to give you the necessary background to get the most out of the papers. We'll alternate between lecture days and discussion days.  On discussion days, you'll come to class having read and responded to a reading assignment, and you'll spend 30 minutes of class in a small group of 3-4 students, discussing specific questions about the reading.
+CSE232 will be a *combination lecture and discussion* course.  We will be reading and discussing papers from the distributed systems research literature, interleaved with lectures to give you the necessary background to get the most out of the papers. We'll alternate between lecture days and discussion days.  On discussion days, you'll come to class having read and responded to a reading assignment, and you'll spend 30 minutes of class in a small group of (at most) 7-8 students, discussing specific questions about the reading.
 
 In these small-group discussions, each student will play a designated role of *ambassador*, *manager*, or *scribe* (discussed in further detail below).  Each student will play each role several times throughout the term.
 
@@ -123,8 +123,8 @@ At the start of each discussion day, after at most 5 minutes for announcements, 
 
 In your small group, three members of the group must take on the following **roles**, and carry out this role in addition to actively participating in the conversation.  Each student in the class should serve in each of the roles **two or more times** during the term, and we'll track roles in a spreadsheet.
 
-  * **Scribe**: The role of the scribe is to take notes during the conversation, while participating in the conversation themselves.  After class, all the scribes will meet and contribute to a formal write-up of the class discussion on the course's public GitHub wiki.  One student in each small group will serve as the scribe.
-  * **Manager**: The role of the manager is to keep track of time and make sure that all of the discussion questions get touched upon.  Afterward, they will be responsible for recording everyone's role on a shared spreadsheet.  One student in each small group will serve as the manager.
+  * **Scribe**: The role of the scribe is to take notes during the conversation, while participating in the conversation themselves.  After class, all the scribes will meet and contribute to a formal write-up of the class discussion on the course's public GitHub wiki.
+  * **Manager**: The role of the manager is to keep track of time and make sure that all of the discussion questions get touched upon.  Afterward, they will be responsible for recording everyone's role on a shared spreadsheet.
   * **Ambassador**: The role of the ambassador is to represent their small group in the large-group discussion afterward.  Ambassadors will also be the first ones to answer follow-up questions from the rest of the class, or to pose questions to the rest of the class that would be helpful to discuss.
   
 The small-group discussion will use the following process:
