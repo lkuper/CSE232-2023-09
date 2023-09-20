@@ -6,7 +6,9 @@ classes: wide
 
 Welcome!  This is an overview of the fall 2023 edition of CSE232 ("Distributed Systems"), a graduate course in the Computer Science and Engineering Department at the UC Santa Cruz Baskin School of Engineering.
 
-## Instructor
+## Course staff
+
+### Instructor
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/lindsey-kuper.jpg" alt="Lindsey Kuper" width="140" style="float: right; margin: 0px 15px 0px 15px; padding: 0px 15px 0px 15px;" />
 
@@ -15,9 +17,19 @@ Hi, I'm [Lindsey Kuper](https://users.soe.ucsc.edu/~lkuper/)!  (Feel free to cal
 
   - Email: for anything CSE232-related, send a DM on the course Zulip instead.  Otherwise: <lkuper@ucsc.edu>
   - Office location: Engineering 2, Room 349B
-  - Office hours: By appointment (DM me on Zulip anytime)
+  - Office hours: By appointment (DM me on Zulip anytime!)
   - Research areas: programming languages, distributed systems, software verification, concurrency (check out the [Languages, Systems, and Data Lab](https://lsd.ucsc.edu/) website for more information)
   - Pronouns: she/her/hers
+  
+### Teaching assistant
+
+<img src="http://placekitten.com/140/200" alt="Jonathan Castello" width="140" style="float: right; margin: 0px 15px 0px 15px; padding: 0px 15px 0px 15px;" />
+  
+**Jonathan Castello**
+
+  - Email: <jcaste14@ucsc.edu>
+  
+<br style="clear: both;" />
 
 ## A few essential details about the course
 
@@ -115,7 +127,7 @@ You will submit your reading response [on Canvas](https://canvas.ucsc.edu/course
 
 ## In-class discussion process
 
-On discussion days, we'll use a structured in-class discussion process.  The process we will use is inspired by one used by [Matthew Ahrens](https://www.eecs.tufts.edu/~mahrens/), [Kathleen Fisher](http://www.cs.tufts.edu/~kfisher/Kathleen_Fisher/Home.html), and [Norman Ramsey](https://www.cs.tufts.edu/~nr/) in courses taught at Tufts University, and the below description borrows heavily from [their](https://www.cs.tufts.edu/comp/150PLD/Consensus.pdf) [documentation](https://www.cs.tufts.edu/comp/150PLD/ic00-1.html), with their permission.
+On discussion days, we'll use a structured in-class discussion process.  The process we will use is (loosely) inspired by one used by [Matthew Ahrens](https://www.eecs.tufts.edu/~mahrens/), [Kathleen Fisher](http://www.cs.tufts.edu/~kfisher/Kathleen_Fisher/Home.html), and [Norman Ramsey](https://www.cs.tufts.edu/~nr/) in courses taught at Tufts University, and the below description borrows heavily from [their](https://www.cs.tufts.edu/comp/150PLD/Consensus.pdf) [documentation](https://www.cs.tufts.edu/comp/150PLD/ic00-1.html), with their permission.
 
 ### Small-group discussion (30 minutes)
 
@@ -124,8 +136,10 @@ At the start of each discussion day, after at most 5 minutes for announcements, 
 In your small group, three members of the group must take on the following **roles**, and carry out this role in addition to actively participating in the conversation.  Each student in the class should serve in each of the roles **two or more times** during the term, and we'll track roles in a spreadsheet.
 
   * **Scribe**: The role of the scribe is to take notes during the conversation, while participating in the conversation themselves.  After class, all the scribes will meet and contribute to a formal write-up of the class discussion on the course's public GitHub wiki.
-  * **Manager**: The role of the manager is to keep track of time and make sure that all of the discussion questions get touched upon.  Afterward, they will be responsible for recording everyone's role on a shared spreadsheet.
+  * **Manager**: The role of the manager is to keep track of time and make sure that all of the discussion questions get touched upon and that everyone has had a chance to speak.  Afterward, they will be responsible for recording everyone's role on a shared spreadsheet.
   * **Ambassador**: The role of the ambassador is to represent their small group in the large-group discussion afterward.  Ambassadors will also be the first ones to answer follow-up questions from the rest of the class, or to pose questions to the rest of the class that would be helpful to discuss.
+  
+Other members of the group should all participate in the discussion, but don't need to play a specific role.
   
 The small-group discussion will use the following process:
 
@@ -141,7 +155,7 @@ The small-group discussion will use the following process:
 	
 ### Large-group discussion (25 minutes)
 
-After 30 minutes, small groups will conclude, and the entire group will reconvene for 25 minutes.  At this point, ambassadors from individual groups will present their groups' conclusions.  During the large-group discussion, **ambassadors speak first**, for a couple of minutes each.  Once all ambassadors have had a turn to speak, if there's time remaining, we'll open the floor to the whole class.
+After 30 minutes, small groups will conclude, and the entire group will reconvene for 25 minutes.  At this point, ambassadors from individual groups will present their groups' conclusions.  **Ambassadors should sit close to the front** during this part of class, and during the large-group discussion, **ambassadors speak first**, for a couple of minutes each.  Once all ambassadors have had a turn to speak, if there's time remaining, we'll open the floor to the whole class.
 
 In the large-group discussion, we'll discuss and evaluate the groups' conclusions and try to forge a coherent consensus view that the whole class can agree on, but also be alert for gaps, inconsistencies, and incoherence.  When possible, I'll compare the conclusions reached by the class with my interpretation of the consensus position of the body of researchers interested in distributed systems.
 
