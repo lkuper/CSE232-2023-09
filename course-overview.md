@@ -107,7 +107,15 @@ For each paper we read, you will submit a short reading response.  The reading r
 
 ### How to write discussion questions
 
-A good discussion question should be specific to the paper and offer enough detail and context to be understandable by your classmates, i.e., people who have read the paper but may not have internalized every detail.  Here are examples of *good* discussion questions from students who've previously taken this course (but don't reuse these questions for the same papers; come up with your own!).  In each case, the question begins with a sentence of contextual information from the paper and then follows that up with a question.
+A good discussion question should be specific to the paper being discussed.  (If the question would work just as well for some other paper, that's a sign that it's not a great discussion question.)
+
+It should offer enough detail and context to be understandable by your classmates -- that is, people who have read the paper but may not have internalized every detail -- and who might not have any background on the topic aside from what has been discussed in this course.
+
+Moreover, you should aim for discussion questions that will **start a lively and enlightening conversation**.
+
+Here are examples of *good* discussion questions from students who've previously taken this course (but don't reuse these questions for the same papers; come up with your own!).  In each case, the question begins with a sentence or two of contextual information from the paper and then follows that up with a question.
+
+  * "In Figure 1 of the paper, events `e_12` and `e_13` are message sends, while `e_21` and `e_22` are message receives. Notice that from the perspective of `P_2`, the messages were received (and possibly delivered) in an opposite order than they were sent. While in class we talked about how to implement FIFO delivery and causal delivery, are there scenarios where we might want to allow messages to be delivered out of order like this?" (for ["Detecting causal relationships in distributed computations: in search of the holy grail"](readings/holy-grail.pdf); discussion question contributed by Reese Levine)
 
   * "Chain replication improves on primary-backup replication by splitting the read and write responsibility amongst two nodes. Would this be sufficient for an unpredictable workload? Under what circumstances would you choose primary-backup replication over CR?" (for ["Chain Replication for Supporting High Throughput and Availability"](readings/chain-replication.pdf); discussion question contributed by Meghna Burli)
   
@@ -115,9 +123,9 @@ A good discussion question should be specific to the paper and offer enough deta
   
 Here are examples of how *not* to write a discussion question:
 
-  * "How can the task of maintaining, implementing and designing fault-tolerant distributed systems be simplified?"  (for ["Fundamentals of Fault-Tolerant Distributed Computing in Asynchronous Environments"](readings/fault-tolerance.pdf))  This question is too broadly scoped and not specific enough to the paper under discussion.
+  * "How can the task of maintaining, implementing and designing fault-tolerant distributed systems be simplified?"  (for ["Fundamentals of Fault-Tolerant Distributed Computing in Asynchronous Environments"](readings/fault-tolerance.pdf))  This question is much too broadly scoped and not specific enough to the paper under discussion.
   
-  * "How to deal with the scalability issue of vector time?"  (for ["Detecting Causal Relationships in Distributed Computations: In Search of the Holy Grail"](readings/holy-grail.pdf))  There's the start of a good question here, but more context is needed.  The question writer should explain what "scalability issue" they mean, and if possible, relate their question to a part of the paper under discussion.
+  * "How to deal with the scalability issue of vector time?"  (for ["Detecting Causal Relationships in Distributed Computations: In Search of the Holy Grail"](readings/holy-grail.pdf))  There's the start of a good question here, but more context is needed.  The question writer should explain what "scalability issue" they mean, and if possible, give a pointer to a particular section of the paper under discussion.
 
 ### Reading response submission logistics
 
@@ -181,16 +189,70 @@ Needless to say, the above grading approach assumes no violations of academic in
 
 ## Academic integrity
 
-**Everything you write for this course must be your own original work.**  It is a very important part of your job as a scholar to understand [what counts as plagiarism](https://guides.library.ucsc.edu/citesources/plagiarism), and make sure you avoid it.  Here's a [handy flowchart](https://writingcenter.ashford.edu/sites/default/files/inline-files/Did%20I%20Plagiarize%20Flowchart.pdf) that you should internalize.
+**Everything you write for this course must be your own original work.**  It is a very important part of your job as a scholar to understand what counts as plagiarism, and make sure you avoid it.
 
-**Properly attribute any work that you use.**  If you use someone else's words, you must _quote_ and _cite_ them.  The only time you can leave out the citation is if it's obvious from context.  For example, if you're turning in a reading response for a given paper, you don't have to cite the paper you're responding to, but you definitely do have to _quote_ any text from the paper that you use.
+**Properly attribute any work that you use.**  If you use someone else's words, you must _quote_ and _cite_ them.  The only time you can leave out the citation is if it's obvious from context.  For example, if you're turning in a reading response for a given paper, you don't have to add a citation to the paper you're responding to.  However, you definitely do have to _quote_ any text from the paper that you use.
 
-Many of the papers we're reading are classics, and much has been written and said about them.  It's absolutely fine to consult existing videos, blogs, etc. to check your understanding, but using other people's words without appropriately citing and quoting them is unacceptable.  **I would much rather have you submit your own writing, even if it is not perfect, and even if you need to turn it in a little late.**
+Because some students find plagiarism hard to identify, here is a real-world example of it from a previous iteration of this class.
+
+Waldo et al.'s ["A Note on Distributed Computing"](readings/note-distributed-computing.pdf) contains the following sentence:
+
+> In fact, the difference in latency between local and remote calls, because it is so obvious, has been the only difference most see between the two, and has tended to mask the more irreconcilable differences.
+
+A student turned in a reading response for the Waldo et al. paper that said:
+
+> The difference in latency between local and distributed object invocations has tended to mask the more incompatible differences.
+
+Unfortunately, this is plagiarism.  It takes the above sentence from the original paper, removes the middle chunk of the sentence, replaces the word "irreconcilable" with "incompatible", and calls it a day.
+
+What should the student have done here instead?  The right thing to do is to think about what the idea from the paper is that you want to convey, and then convey that idea in your own words while acknowledging that it comes from the paper.  For example, one might write:
+
+> The paper says that people think too much about latency and don't pay enough attention to bigger differences between local and distributed programming.
+
+Notice that this version is very casually written.  **That's fine!  In fact, it's great.**  Here's a more formal version:
+
+> The paper argues that focusing exclusively on latency leads to an unfortunate lack of emphasis on the more "irreconcilable differences" between local and distributed computing.
+
+But both sentences do what we're looking for in this course: they credit the paper with an idea and paraphrase that idea.  The second sentence uses a recognizable phrase, "irreconcilable differences", from the paper, but quotes it -- this is fine to do.
+
+Many of the papers we're reading are classics, and much has been written and said about them.  It's absolutely fine to consult existing videos, blogs, etc. to check your understanding.  However, using other people's words without appropriately citing and quoting them is unacceptable.  **I would always much rather have you submit your own original writing, even if it is extremely casual and unpolished.**
 
 If I see that the writing you do for this course contains material that is copied from a source without appropriate citation and quotation, *at a minimum*, you will get no credit for the assignment in question, and you risk further penalties, such as failing the course.
 
+### Policy on the use of LLM-based tools like ChatGPT
+
+**This policy is based in part on the article ["Why All Our Classes Suddenly Became AI Classes"](https://hbsp.harvard.edu/inspiring-minds/why-all-our-classes-suddenly-became-ai-classes) by Ethan Mollick and Lilach Mollick.**
+
+In the writing you do for this course, you are *completely welcome* to use tools based on large language models (LLMs), such as ChatGPT.  Such tools can be incredibly useful, and it may be worth your while to learn how to use them.  However, it's important to be aware of the limits of LLM-based tools, and of how to use and cite them properly.  In particular, here's what you need to know for this class:
+
+  - You must acknowledge your use of LLM-based tools.  **If you use LLM-based tools for any of the work you submit for this class, include a paragraph at the end of the submitted work, explaining what tool you used, what you used it for, and what prompts you used to get the results. Failure to do so is academic misconduct.**
+  - If you provide low-effort prompts, you will get low-quality results. You will need to refine your prompts in order to get good outcomes. This will take work.
+  - Don't trust anything that an LLM-based tool says.  It will often [make up fake citations or hallucinate plausible-but-wrong answers to questions](/blog/2023/01/23/an-underwhelming-conversation-with-chatgpt/).  If it gives you a number or fact, assume it is wrong unless you either know the answer or can check with another source. You will be responsible for any errors or omissions provided by the tool. It works best for topics you understand.
+
+All that said, I will now make a case for why you might *not* want to use LLM-based tools in this course.
+
+If you're enrolled in this (elective, graduate) course, it's presumably because you want to deeply understand the subject matter.  The knowledge and experiences you've gained in your life so far will inform that understanding.  By building on those experiences and putting them together with what you glean from this course, you will probably think of things that I've never thought of before.  You may even thnk of things that *no one* has thought of before!  I am excited to see those ideas emerge in the writing you do for this class.  As [Rob Ricci](https://ricci.io/) puts it: ["I can't tell you exactly what this should look like, because the point is that I want to see things that are different from what everyone else is writing."](https://recurse.social/@ricci@discuss.systems/111103870283618525)
+
+LLM-based tools do not "understand"; rather, they produce statistically likely responses to prompts.  If you go to the effort of dumping the text of an assigned reading into ChatGPT and prompting it to produce a paper summary or a discussion question for this course, it will produce -- with great confidence, and in impeccable English prose -- ["a thoroughly mediocre response that is indistinguishable from all the other text it has ingested on the topic"](https://discuss.systems/@ricci/111103870175372635), to quote Rob again.
+
+For instance, I tried ChatGPT to produce discussion questions for Waldo et al.'s ["A Note on Distributed Computing"](readings/note-distributed-computing.pdf).  I provided the entire text of the paper, then prompted ChatGPT as follows (quoting from my own writing up above):
+
+> Now, please suggest 1-2 questions about the reading that would be good for an in-class discussion in a graduate-level distributed systems course. These must be questions whose answers do not appear verbatim in the paper. Instead, try to go deeper. Keep in mind that you may need several sentences just to provide sufficient context for a question.
+
+Here's the result:
+
+> 1. In the article, the author argues against attempting to merge the computational models of local and distributed computing, emphasizing their irreconcilable differences. Given this perspective, discuss the practical challenges and potential benefits of designing software systems that acknowledge and embrace these differences. Can you provide examples of real-world applications where such an approach might be advantageous, and how would you go about designing interfaces for objects meant for remote access?
+> 
+> 2. In the article, the author argues against attempting to merge the computational models of local and distributed computing, emphasizing their irreconcilable differences. Given this perspective, discuss the practical challenges and potential benefits of designing software systems that acknowledge and embrace these differences. Can you provide examples of real-world applications where such an approach might be advantageous, and how would you go about designing interfaces for objects meant for remote access?
+
+Aside from the fact that the resounding hollowness of the ChatGPT-produced prose has sucked away all of my zest for life, these questions are too vague and broadly scoped to be likely to lead to a focused, illuminating, and lively discussion in class.  (Also, in true ChatGPT fashion, its output contains information that is *plausible but false*: it refers to "the author", when in fact the article in question has four authors.)
+
+So, please understand that while you are welcome to use LLM-based tools in this course, you should be aware of their limitations.
+
+(Of course, I haven't even begun to address the topic of [the myriad environmental, social, and ethical problems involved in the training, deployment, and use of LLM-based tools](https://dl.acm.org/doi/10.1145/3442188.3445922), but that's a topic for another course.)
+  
 ## A note on accessibility
 
-If you have a disability and you require accommodations to achieve equal access in this course, please submit your Accommodation Authorization Letter from the [Disability Resource Center (DRC)](https://drc.ucsc.edu/index.html) to me by email, preferably within the first two weeks of the quarter.  I am eager to discuss ways we can ensure your full participation in the course.
+If you have a disability and you require accommodations to achieve equal access in this course, please submit your Accommodation Authorization Letter from the [Disability Resource Center (DRC)](https://drc.ucsc.edu/index.html) to me via the Accommodate system, preferably within the first two weeks of the quarter.  I am eager to discuss ways we can ensure your full participation in the course.
 
 I encourage all students who may benefit from learning more about DRC services to [contact the DRC](https://drc.ucsc.edu/about/contact-us/index.html).
