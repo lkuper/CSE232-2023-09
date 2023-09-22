@@ -221,13 +221,13 @@ If I see that the writing you do for this course contains material that is copie
 
 ### Policy on the use of LLM-based tools like ChatGPT
 
-**This policy is based in part on the article ["Why All Our Classes Suddenly Became AI Classes"](https://hbsp.harvard.edu/inspiring-minds/why-all-our-classes-suddenly-became-ai-classes) by Ethan Mollick and Lilach Mollick.**
-
 In the writing you do for this course, you are *completely welcome* to use tools based on large language models (LLMs), such as ChatGPT.  Such tools can be incredibly useful, and it may be worth your while to learn how to use them.  However, it's important to be aware of the limits of LLM-based tools, and of how to use and cite them properly.  In particular, here's what you need to know for this class:
 
   - You must acknowledge your use of LLM-based tools.  **If you use LLM-based tools for any of the work you submit for this class, include a paragraph at the end of the submitted work, explaining what tool you used, what you used it for, and what prompts you used to get the results. Failure to do so is academic misconduct.**
   - If you provide low-effort prompts, you will get low-quality results. You will need to refine your prompts in order to get good outcomes. This will take work.
   - Don't trust anything that an LLM-based tool says.  It will often [make up fake citations or hallucinate plausible-but-wrong answers to questions](/blog/2023/01/23/an-underwhelming-conversation-with-chatgpt/).  If it gives you a number or fact, assume it is wrong unless you either know the answer or can check with another source. You will be responsible for any errors or omissions provided by the tool. It works best for topics you understand.
+  
+(This policy is based on the article ["Why All Our Classes Suddenly Became AI Classes"](https://hbsp.harvard.edu/inspiring-minds/why-all-our-classes-suddenly-became-ai-classes) by Ethan Mollick and Lilach Mollick.)
 
 All that said, I will now make a case for why you might *not* want to use LLM-based tools in this course.
 
