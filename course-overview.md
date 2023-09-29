@@ -245,7 +245,7 @@ Here's the result:
 > 
 > 2. The author highlights the importance of maintaining visibility of the differences between local and remote objects throughout the design and implementation of distributed applications. In your view, how can software engineers strike a balance between abstracting these differences to simplify development and keeping them visible to ensure robustness and reliability? Can you propose strategies or best practices for achieving this balance in the context of modern distributed systems?
 
-Aside from the fact that the resounding hollowness of the ChatGPT-produced prose has sucked away all of my zest for life, these questions are too vague and broadly scoped to be likely to lead to a focused, illuminating, and lively discussion in class.  (Also, in true ChatGPT fashion, its output contains information that is *plausible but false*: it refers to "the author", when in fact the article in question has four authors.)
+The ChatGPT-produced prose truly does accurately summarize some key concepts from the paper.  However, aside from the fact that the resounding hollowness of the ChatGPT-produced prose has sucked away all of my zest for life, these questions are too vague and broadly scoped to be likely to lead to a focused, illuminating, and lively discussion in class.  (Also, in true ChatGPT fashion, its output contains information that is *plausible but false*: it refers to "the author", when in fact the article in question has four authors.)
 
 So, please understand that while you are welcome to use LLM-based tools in this course, you should be aware of their limitations.
 
