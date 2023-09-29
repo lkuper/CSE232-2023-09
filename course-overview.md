@@ -34,7 +34,7 @@ Hi, I'm [Lindsey Kuper](https://users.soe.ucsc.edu/~lkuper/)!  (Feel free to cal
 ## A few essential details about the course
 
   - 5-unit graduate seminar course (in this context, "seminar" means a course where we discuss assigned readings and everyone participates actively in the discussion)
-  - Class meets in person Mondays, Wednesdays, and Fridays, 4:00-5:05pm Pacific time
+  - Class meets in person Mondays, Wednesdays, and Fridays, 4:00-5:05pm Pacific time, in [Social Sciences 2, Room 75](lsd-ucsc.github.io/content/lsd-seminar/)
   - Course GitHub repo (public; for class discussion summaries): <https://github.com/lkuper/CSE232-2023-09/>
   - Canvas (for reading responses and grades): <https://canvas.ucsc.edu/courses/65302>
   - Zulip (private; for announcements, live chat during lectures, Q&A, communicating with course staff, and socializing): <https://ucsc-cse232.zulipchat.com> (enrolled students will receive an invitation link)
