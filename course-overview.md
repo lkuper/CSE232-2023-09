@@ -76,7 +76,7 @@ This course will _not_ have a required programming component.  If you were hopin
 
 ## Reading and responding to research papers
 
-We will spend half our time in this course **reading, responding to, and discussing research papers**.  Reading research papers is a skill that requires a great deal of practice.  In this class, you will work on developing that skill.  You will need to finish each reading assignment in advance of the day we discuss it in class.  In fact, you will need to turn in a reading response by 5pm Pacific time on the day _before_ the day we discuss it in class.
+We will spend half our time in this course **reading, responding to, and discussing research papers**.  Reading research papers is a skill that requires a great deal of practice.  In this class, you will work on developing that skill.  You will need to finish each reading assignment in advance of the day we discuss it in class.  In fact, you will need to turn in a reading response by 11:59:59pm Pacific time on the day _before_ the day we discuss it in class.
 
 ### Some advice on how to read papers
 
